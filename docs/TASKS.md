@@ -57,15 +57,15 @@ Checks required for every PR (from `CLAUDE.md`): `python manage.py check --deplo
   - [x] `python manage.py test` passes.
 
 ## TASK-04: Visual design
-- Status: todo
+- Status: done
 - Role: Designer
 - Branch: task/task-04-design
 - Goal: Replace the current pink background with the design recorded in `docs/DESIGN.md`, in one PR.
 - Acceptance criteria:
-  - [ ] `docs/DESIGN.md` records colours, type scale, spacing, components and breakpoints (from Figma if the connector is available, otherwise decided by the Designer).
-  - [ ] Only `main/static/main/css/main.css`, static images and template class names change; no Python code, models, views or URLs.
-  - [ ] Text contrast is at least 4.5:1, focus states are visible, meaningful images have `alt` text, no information is carried by colour alone.
-  - [ ] Any non-code asset is recorded in `docs/ASSETS.md`.
+  - [x] `docs/DESIGN.md` records colours, type scale, spacing, components and breakpoints (from Figma if the connector is available, otherwise decided by the Designer).
+  - [x] Only `main/static/main/css/main.css`, static images and template class names change; no Python code, models, views or URLs.
+  - [x] Text contrast is at least 4.5:1, focus states are visible, meaningful images have `alt` text, no information is carried by colour alone.
+  - [x] Any non-code asset is recorded in `docs/ASSETS.md`.
 
 ## TASK-05: User accounts
 - Status: todo
