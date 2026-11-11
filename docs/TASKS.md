@@ -45,16 +45,16 @@ Checks required for every PR (from `CLAUDE.md`): `python manage.py check --deplo
   - [x] `ruff check .` passes.
 
 ## TASK-03: Tests for `/` and `/new`
-- Status: todo
+- Status: done
 - Role: Developer (Tester verifies)
 - Branch: task/task-03-page-tests
 - Goal: Cover the two existing pages with tests in `main/tests.py`.
 - Acceptance criteria:
-  - [ ] `/` returns 200 and contains its heading text.
-  - [ ] `/new` returns 200 and contains its heading text.
-  - [ ] Both pages are reachable without logging in.
-  - [ ] Tests run with `DEBUG=False` defaults and use `secure=True` where `SECURE_SSL_REDIRECT` applies; no security setting is disabled to pass.
-  - [ ] `python manage.py test` passes.
+  - [x] `/` returns 200 and contains its heading text.
+  - [x] `/new` returns 200 and contains its heading text.
+  - [x] Both pages are reachable without logging in.
+  - [x] Tests run with `DEBUG=False` defaults and use `secure=True` where `SECURE_SSL_REDIRECT` applies; no security setting is disabled to pass.
+  - [x] `python manage.py test` passes.
 
 ## TASK-04: Visual design
 - Status: todo
