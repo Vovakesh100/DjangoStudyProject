@@ -21,18 +21,18 @@ Checks required for every PR (from `CLAUDE.md`): `python manage.py check --deplo
 ---
 
 ## TASK-01: Security settings
-- Status: todo
+- Status: done
 - Role: Developer
-- Branch: task/task-01-security-settings
+- Branch: task/01-security-settings
 - Goal: Bring `ZeroCoder/settings.py` in line with the Security > Settings section of `CLAUDE.md`.
 - Acceptance criteria:
-  - [ ] `SECRET_KEY` is read from the environment with no default; the `django-insecure-...` value is removed; a missing key stops startup with a clear error.
-  - [ ] `DEBUG` is `False` unless `DJANGO_DEBUG` is exactly `1`.
-  - [ ] `ALLOWED_HOSTS` comes from `DJANGO_ALLOWED_HOSTS`; with `DEBUG=False` and an empty list, startup fails with a clear error.
-  - [ ] With `DEBUG=False`: `SECURE_SSL_REDIRECT=True`, `SESSION_COOKIE_SECURE=True`, `CSRF_COOKIE_SECURE=True`, `SECURE_HSTS_SECONDS=3600`, `SECURE_HSTS_INCLUDE_SUBDOMAINS=True`, `SECURE_CONTENT_TYPE_NOSNIFF=True`, `SECURE_REFERRER_POLICY="same-origin"`, `X_FRAME_OPTIONS="DENY"`.
-  - [ ] The four password validators are unchanged.
-  - [ ] `python manage.py check --deploy` passes with production variables set.
-  - [ ] `README.md` lists the environment variables and how to run locally.
+  - [x] `SECRET_KEY` is read from the environment with no default; the `django-insecure-...` value is removed; a missing key stops startup with a clear error.
+  - [x] `DEBUG` is `False` unless `DJANGO_DEBUG` is exactly `1`.
+  - [x] `ALLOWED_HOSTS` comes from `DJANGO_ALLOWED_HOSTS`; with `DEBUG=False` and an empty list, startup fails with a clear error.
+  - [x] With `DEBUG=False`: `SECURE_SSL_REDIRECT=True`, `SESSION_COOKIE_SECURE=True`, `CSRF_COOKIE_SECURE=True`, `SECURE_HSTS_SECONDS=3600`, `SECURE_HSTS_INCLUDE_SUBDOMAINS=True`, `SECURE_CONTENT_TYPE_NOSNIFF=True`, `SECURE_REFERRER_POLICY="same-origin"`, `X_FRAME_OPTIONS="DENY"`.
+  - [x] The four password validators are unchanged.
+  - [x] `python manage.py check --deploy` passes with production variables set.
+  - [x] `README.md` lists the environment variables and how to run locally.
 
 ## TASK-02: Template title and unused import
 - Status: todo
