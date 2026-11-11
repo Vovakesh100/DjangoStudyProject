@@ -1,0 +1,4 @@
+# ZeroCoder is the Django project package. Renaming it would break
+# ROOT_URLCONF, wsgi.py, asgi.py and manage.py, so N999 is not enforced.
+[lint]
+ignore = ["N999"]
