@@ -35,14 +35,14 @@ Checks required for every PR (from `CLAUDE.md`): `python manage.py check --deplo
   - [x] `README.md` lists the environment variables and how to run locally.
 
 ## TASK-02: Template title and unused import
-- Status: todo
+- Status: done
 - Role: Developer
 - Branch: task/task-02-title-and-import
 - Goal: Remove the duplicate `<title>` from the layout and the unused import from `main/views.py`.
 - Acceptance criteria:
-  - [ ] Each rendered page has exactly one `<title>` element.
-  - [ ] `main/views.py` has no unused import.
-  - [ ] `ruff check .` passes.
+  - [x] Each rendered page has exactly one `<title>` element.
+  - [x] `main/views.py` has no unused import.
+  - [x] `ruff check .` passes.
 
 ## TASK-03: Tests for `/` and `/new`
 - Status: todo
