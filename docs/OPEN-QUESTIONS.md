@@ -55,3 +55,23 @@ Entry format:
   2. One-way following without acceptance.
 - Recommendation: Option 1. The task list calls the feature "friends" and TASK-08 is written that way.
 - Answer:
+
+## OQ-05: What happens to the old `boat.jpg` photo?
+- Status: answered (accepted autonomously); owner may overrule
+- Needs owner: yes ("Stop and ask" case 3: it may show real people)
+- Options:
+  1. Remove the file and do not use any photo (CSS-only design).
+  2. Keep it and find its source and licence.
+  3. Replace it with a CC0 or public-domain image recorded in `docs/ASSETS.md`.
+- Recommendation: Option 1. The photo shows people, its licence is unknown, and the design does not need it.
+- Answer: Accepted autonomously (option 1) in TASK-04. The file was removed from the working tree and is still in git history. If the owner wants the photo back or wants history rewritten, that is the owner's decision.
+
+## OQ-06: Figma reference for the design
+- Status: answered (accepted autonomously)
+- Needs owner: no
+- Options:
+  1. Decide the palette, type and spacing from the accessibility requirements.
+  2. Wait for a Figma file.
+- Recommendation: Option 1. No Figma link exists in the repository.
+- Answer: Accepted autonomously (option 1) in TASK-04. Decisions are in `docs/DESIGN.md` and can be aligned with Figma later.
+

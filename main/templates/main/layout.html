@@ -4,17 +4,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}DjangoStudyProject{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
 </head>
 <body>
 
-    <aside>
+    <header class="site-header">
+        <p class="site-title">DjangoStudyProject</p>
+    </header>
+    <main class="content">
+        {% block content %}
 
-        <img src="{% static 'main/image/boat.jpg' %}" alt="ff">
-    </aside>
-    {% block content %}
-
-    {% endblock %}
+        {% endblock %}
+    </main>
 </body>
 </html>

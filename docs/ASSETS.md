@@ -7,8 +7,11 @@ Entry format:
 | File | Source URL | Author | Licence | Why it is here |
 | --- | --- | --- | --- | --- |
 
-The asset `main/static/main/image/boat.jpg` came with the first commit and its source is not recorded. It is listed here so the Designer can replace it or document its origin in TASK-04.
-
 | File | Source URL | Author | Licence | Why it is here |
 | --- | --- | --- | --- | --- |
-| `main/static/main/image/boat.jpg` | unknown | unknown | unknown | Layout sidebar image |
+
+## Removed assets
+
+| File | Removed in | Reason |
+| --- | --- | --- |
+| `main/static/main/image/boat.jpg` | TASK-04 | Photo with visible people (a boat with two persons, Venice waterfront). Source, author and licence are unknown. `CLAUDE.md` allows no photos of real people and requires a recorded CC0 or public-domain source. The file stays in git history. |
